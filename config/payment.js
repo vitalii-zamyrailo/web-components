@@ -7,7 +7,7 @@ export const payment = {
 			paymentResult: { method: 'POST', path: '/form/' },
 		},
 	},
-	publicKey: 'i59295264359',
+	publicKey: '********',
 	currency: 'UAH',
 	description: 'Добровільна пожертва на здійснення статутної діяльності ГО "Демократична сокира"',
 	lang: 'uk',
