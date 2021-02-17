@@ -1,0 +1,34 @@
+.block__header {
+	position: relative;
+	background: #941d25;
+}
+
+.block__header-content {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	max-width: 1140px;
+	height: 100px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.block__header-logo {
+	margin-right: 110px;
+}
+
+.block__header-text {
+	color: #fff5e9;
+	font-size: 26px;
+	text-transform: uppercase;
+}
+
+.block_donors .block__header-logo {
+	width: 81px;
+	height: 91px;
+	background-image: url('../../img/donors-icon.png');
+}
+
+.block_report .block__header-content {
+	justify-content: center;
+}

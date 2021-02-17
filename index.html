@@ -1,0 +1,55 @@
+<html>
+	<head>
+		<title>ГО "ДЕМОКРАТИЧНА СОКИРА"</title>
+
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="shortcut icon" type="image/x-icon" href="./favicon.png" />
+
+		<link rel="stylesheet" type="text/css" href="./source/styles/normalize.css">
+		<link rel="stylesheet" type="text/css" href="./source/styles/fonts.css">
+		<link rel="stylesheet" type="text/css" href="./source/styles/frame.css">
+
+		<link rel="stylesheet" type="text/css" href="./source/styles/shared/blocks.css">
+
+		<link rel="stylesheet" type="text/css" href="./source/styles/components/header.css">
+		<link rel="stylesheet" type="text/css" href="./source/styles/components/footer.css">
+		<link rel="stylesheet" type="text/css" href="./source/styles/components/mainBanner.css">
+		<link rel="stylesheet" type="text/css" href="./source/styles/components/donorsBlock.css">
+		<link rel="stylesheet" type="text/css" href="./source/styles/components/reportBlock.css">
+		<link rel="stylesheet" type="text/css" href="./source/styles/components/payRequisites.css">
+		<link rel="stylesheet" type="text/css" href="./source/styles/components/donateWidget.css">
+
+		<link rel="stylesheet" type="text/css" href="./source/styles/components/modals.css">
+
+		<link rel="stylesheet" type="text/css" href="./source/styles/routes/index.css">
+
+		<script src="./source/js/index.js" type="module"></script>
+	</head>
+
+	<body>
+		<div class="wrapper hidden">
+			<app-header></app-header>
+
+			<div class="content">
+				<main-banner></main-banner>
+
+				<div id="payment" class="payment-block">
+					<donate-widget></donate-widget>
+
+					<pay-requisites></pay-requisites>
+				</div>
+
+				<donors-block id="donors"></donors-block>
+
+				<report-block id="report"></report-block>
+			</div>
+
+			<app-footer></app-footer>
+		</div>
+
+		<script src="//static.liqpay.ua/libjs/checkout.js" async></script>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120511473-2"></script>
+	</body>
+</html>

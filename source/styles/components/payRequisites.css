@@ -1,0 +1,41 @@
+.pay-requisites {
+	display: flex;
+	flex-direction: column;
+	padding-left: 20px;
+	border-left: 2px solid #941d25;
+}
+
+.pay-requisites__block {
+	display: flex;
+	flex-direction: column;
+	max-width: 322px;
+	padding: 13px;
+	border: 1px solid #941d25;
+}
+
+.pay-requisites__block:not(:last-child) {
+	margin-bottom: 15px;
+}
+
+.pay-requisites__block-title {
+	font-weight: bold;
+	font-size: 17px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.pay-requisites__list {
+	display: flex;
+	flex-direction: column;
+}
+
+.pay-requisites__desc {
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
+.pay-requisite {
+	font-size: 14px;
+	word-break: break-all;
+}

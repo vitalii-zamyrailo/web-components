@@ -1,0 +1,20 @@
+.footer {
+	position: relative;
+	background-color: #292929;
+}
+
+.footer__container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 1140px;
+	height: 100px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.footer__item {
+	font-size: 15px;
+	color: #fff5e9;
+}
