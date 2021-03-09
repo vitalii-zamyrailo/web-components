@@ -1,7 +1,6 @@
 # Simple web components landing
 
-- Plain js
-- Plain css
+- Vanilla js
 - No bundler
 - No frameworks
 - Web components
