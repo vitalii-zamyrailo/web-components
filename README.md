@@ -1,11 +1,7 @@
-# Test landing for sokyra
+# Simple web components landing
 
-Plain js
-
-Plain css
-
-No bundler
-
-No frameworks
-
-Web components
+- Plain js
+- Plain css
+- No bundler
+- No frameworks
+- Web components
